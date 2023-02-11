@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    .d1 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 7;
+
+    animation-name: change1;
+    animation-duration: 5s;
+    /* animation-fill-mode:forwards; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes change1 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:0px; top:0px;}
+  }
+  .d12 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 6;
+
+    animation-name: a;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+  }
+  
+  @keyframes a {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:150px; top:0px;}
+  }
+
+
+  .d13 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 5;
+
+    animation-name: a1;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+  }
+  
+  @keyframes a1 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:300px; top:0px;}
+  }
+
+
+  .d14 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 4;
+    /* border: 1px solid darkcyan; */
+    /* border-radius: 75px; */
+
+    animation-name: a2;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+  
+  @keyframes a2 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:450px; top:0px;}
+  }
+
+  .d15 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 3;
+
+    animation-name: a3;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+  
+  @keyframes a3 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:600px; top:0px;}
+  }
+
+  .d16 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 2;
+
+    animation-name: a4;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 2.5s;
+  }
+  
+  @keyframes a4 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:700px; top:0px;}
+  }
+
+
+  .d17 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 1;
+
+    animation-name: a5;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+  }
+  
+  @keyframes a5 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:850px; top:0px;}
+  }
+  .p1{
+    /* color: darkturquoise; */
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+    animation-name: p1;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    
+  }
+  @keyframes p1{
+    0%   {color:darkblue;}
+    10%  {color:darkcyan; }
+
+    20%  {color:darkgoldenrod; }
+    40%  {color:darkgray; }
+    25%  {color:darkgreen; }
+
+    60%  {color:darkmagenta; }
+    70%  {color:darkorange; }
+    80%  {color:darkred; }
+    90%  {color:darkseagreen; }
+
+    100% {color:darkturquoise; }
+  }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+body{
+  background-color: darkgoldenrod;
+}
+.main1 , .main2 , .main3 , .main4 , .main5 , .main6{
+    position: relative;
+    width: 80%;
+    height: 100px;
+    /* border: 1px solid darkcyan; */
+    margin: 15px auto;
+  }
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  .d2 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 5;
+
+    animation-name: b1;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 5.5s;
+  }
+  
+  @keyframes b1 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:300px; top:0px;}
+  }
+
+  .d21 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 4;
+
+    animation-name: b2;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+  }
+  
+  @keyframes b2 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:450px; top:0px;}
+  }
+  .p2{
+    color: aquamarine;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+    animation-name: p2;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    
+  }
+  @keyframes p2{
+    0%   {color:red; }
+    10%  {color:rebeccapurple; }
+
+    20%  {color:gold; }
+    40%  {color:darkgray; }
+    25%  {color:greenyellow; }
+
+    60%  {color:darkmagenta; }
+    70%  {color:darkorange; }
+    80%  {color:blueviolet; }
+    90%  {color:grey; }
+
+    100% {color:darkturquoise; }
+  }
+  /* //////////////////////////////////////////////////////////////////////// */
+
+  .d3 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 5;
+
+    animation-name: c;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+  }
+  
+  @keyframes c{
+    0%   {background-color:darkgoldenrod; left:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; }
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod;left:300px;  }
+  }
+
+  .d31 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 4;
+
+    animation-name: c2;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 10.5s;
+  }
+  
+  @keyframes c2 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:450px; top:0px;}
+  }
+  .p3{
+    color: darkturquoise;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+    animation-name: p3;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    
+  }
+  @keyframes p3{
+    0%   {color:lavenderblush; text-shadow: 5px ; }
+    10%  {color:lawngreen; }
+
+    20%  {color:lemonchiffon; }
+    40%  {color:lightcoral; }
+    25%  {color:lightseagreen; }
+
+    60%  {color:darkmagenta; }
+    70%  {color:darkorange; }
+    80%  {color:darkred; }
+    90%  {color:darkseagreen; }
+
+    100% {color:lime; }
+  }
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .d41 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: d1;
+    animation-duration: 5s;
+    /* animation-fill-mode:forwards; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    z-index: 7;
+  }
+  
+  @keyframes d1 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:0px; top:0px;}
+  }
+  .d42 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 6;
+
+    animation-name: d2;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 15.5s;
+  }
+  
+  @keyframes d2 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:150px; top:0px;}
+  }
+
+
+  .d43 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 5;
+
+    animation-name: d3;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 16s;
+  }
+  
+  @keyframes d3 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:300px; top:0px;}
+  }
+
+
+  .d44 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 4;
+
+    animation-name: d4;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 16.5s;
+  }
+  
+  @keyframes d4 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:450px; top:0px;}
+  }
+
+  .d45 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 3;
+
+    animation-name: d5;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 17s;
+  }
+  
+  @keyframes d5 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:600px; top:0px;}
+  }
+
+  .d46 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 2;
+
+    animation-name: d6;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 17.5s;
+  }
+  
+  @keyframes d6 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:700px; top:0px;}
+  }
+
+
+  .d47 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+    z-index: 1;
+
+    animation-name: d7;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 18s;
+  }
+  
+  @keyframes d7 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:850px; top:0px;}
+  }
+  .p4{color: darkcyan;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+    animation-name: p4;
+    animation-duration: 10s;
+    animation-delay: 18.5s;
+    
+  }
+  @keyframes p4{
+    0%   {color:darkblue; }
+    10%  {color:darkcyan; }
+
+    20%  {color:darkgoldenrod; }
+    40%  {color:darkgray; }
+    25%  {color:darkgreen; }
+
+    60%  {color:darkmagenta; }
+    70%  {color:darkorange; }
+    80%  {color:darkred; }
+    90%  {color:darkseagreen; }
+
+    100% {color:darkturquoise; }
+  }
+  /* ///////////////////////////////////////////////////////////////////////////////////////////// */
+  .d51 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e1;
+    animation-duration: 5s;
+    /* animation-fill-mode:forwards; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 20s;
+  }
+  
+  @keyframes e1 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:0px; top:0px;}
+  }
+  .d52 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e2;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 20.5s;
+  }
+  
+  @keyframes e2 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:150px; top:0px;}
+  }
+
+
+  .d53 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e3;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 21s;
+  }
+  
+  @keyframes e3 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:300px; top:0px;}
+  }
+
+
+  .d54 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e4;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 21.5s;
+  }
+  
+  @keyframes e4 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:450px; top:0px;}
+  }
+
+  .d55 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e5;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 22s;
+  }
+  
+  @keyframes e5 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:600px; top:0px;}
+  }
+
+  .d56 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e6;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 22.5s;
+  }
+  
+  @keyframes e6 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:700px; top:0px;}
+  }
+
+
+  .d57 {
+    width: 150px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    float: left;
+
+    animation-name: e7;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: 1;
+    animation-delay: 23s;
+  }
+  
+  @keyframes e7 {
+    0%   {background-color:darkgoldenrod; left:0px; top:0px;}
+    /* 25%  {background-color:yellow; left:1000px; top:0px;} */
+    50%  {background-color:darkgoldenrod; left:92%; top:0px;}
+    /* 75%  {background-color:green; left:0px; top:200px;} */
+    100% {background-color:darkgoldenrod; left:850px; top:0px;}
+  }
+  .p5{color: lightcoral;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+    animation-name: p5;
+    animation-duration: 10s;
+    animation-delay: 23.5s;
+    
+  }
+  @keyframes p5{
+    0%   {color:darkblue; }
+    10%  {color:darkcyan; }
+
+    20%  {color:darkgoldenrod; }
+    40%  {color:darkgray; }
+    25%  {color:darkgreen; }
+
+    60%  {color:darkmagenta; }
+    70%  {color:darkorange; }
+    80%  {color:darkred; }
+    90%  {color:darkseagreen; }
+
+    100% {color:darkturquoise; }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="main1">
+    <div class="d1"><p class="p1">W</p></div>
+    <div class="d12"><p class="p1">E</p></div>
+    <div class="d13"><p class="p1">L</p ></div>
+    <div class="d14"><p class="p1">C</p></div>
+    <div class="d15"><p class="p1">O</p></div>
+    <div class="d16"><p class="p1">M</p></div>
+    <div class="d17"><p class="p1">E</p></div>
+
+    
+
+</div >
+
+<div class="main2">
+    <div class="d2"><p class="p2">T</p></div>
+    <div class="d21"><p class="p2">O</p></div>
+
+</div>
+
+<div class="main3">
+    <div class="d3"><p class="p3">M</p></div>
+    <div class="d31"><p class="p3">Y</p></div>
+
+</div>
+
+<div class="main4">
+    <div class="d4">
+        <div class="d41"><p class="p4">W</p></div>
+        <div class="d42"><p class="p4">E</p></div>
+        <div class="d43"><p class="p4">B</p ></div>
+        <div class="d44"><p class="p4">S</p></div>
+        <div class="d45"><p class="p4">I</p></div>
+        <div class="d46"><p class="p4">T</p></div>
+        <div class="d47"><p class="p4">E</p></div>
+    </div >
+</div>
+
+
+
+
+<div class="main5">
+    <div class="54">
+        <div class="d51"><p class="p5">A</p></div>
+        <div class="d52"><p class="p5">H</p></div>
+        <div class="d53"><p class="p5">A</p ></div>
+        <div class="d54"><p class="p5">M</p></div>
+        <div class="d55"><p class="p5">A</p></div>
+        <div class="d56"><p class="p5">D</p></div>
+        <div class="d57"><p class="p5">A</p></div>
+    </div ></div>
+
+
+<!-- <div class="main6">
+    <div class="d6"></div>
+</div> -->
+
+</body>
+</html>
+
+
